@@ -1,0 +1,9 @@
+{
+    "name":"Rotating Clock",
+    "version":"1.1",
+    "description":"Rotating Clock Extension",
+    "manifest_version":3,
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    }
+}

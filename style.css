@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh; /*Ensures the body takes up the full viewport height */
+    margin: 0px; /* Removes default body margin */
+    font-family: "Orbitron", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right top, #000000, #040404, #090808, #0d0c0c, #100f10, #121213, #141416, #151719, #161a1c, #161d1f, #172021, #182323);
+}
+
+
+/* .container{
+    height: 25rem;
+    width: 25rem;
+    background-color: aqua;
+} */
+
+.sec-section, .min-section, .hour-section{
+    border-radius: 50%;
+    position: absolute;
+    transition: transform 0.10s;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.sec-section {
+    height: 25rem;
+    width: 25rem;
+}
+
+.min-section {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hour-section {
+    height: 5rem;
+    width: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.amPm{
+    height: 10rem;
+    width: 10rem;
+    background-color: white;
+
+}
+
+.secDiv {
+    height: 0.75rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.smDiv,.mmDiv{
+    background-image: linear-gradient(to right top, #464c4d, #525a5c, #5f696b, #6c787a, #79878a);}
+.smDiv{
+    height: 0.25rem;
+    width: 0.75rem;
+}
+
+.mmDiv{
+    height: 0.2rem;
+    width: 0.45rem;
+}
+
+.minDiv{
+    height: 0.75rem;
+    width: 15rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+/* .min-time,.sec-time{
+    position: absolute;
+    font-size: 1rem;
+} */
+
+.min,.sec{
+    border: 2px solid rgba(0,255,255,0.7);
+    border-radius: 1rem;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+}
+
+.min{
+    height: 2rem;
+    width: 3rem;
+    left:46rem;
+    top: 18.75rem;
+}
+
+.sec{
+    height: 1.5rem;
+    width: 2.5rem;
+    top: 19rem;
+    left: 51rem;
+    font-size: 1rem;
+}
+
+#red{
+    background-image: linear-gradient(to right top, #00ffff, #0ff9f9, #19f3f3, #1feded, #24e7e7);}
+
+p{
+    position: absolute;
+    top: 51%;
+}    
